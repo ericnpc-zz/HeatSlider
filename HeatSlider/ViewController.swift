@@ -16,7 +16,6 @@ class ViewController: UIViewController, HeatSliderDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.slider.delegate = self
-    //self.slider.percentage = 20
   }
   
   func heatSlider(_ heatSlider: HeatSlider, didUpdatePercentage percentage: Float) {

@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
 s.platform = :ios
-s.ios.deployment_target = '10.2'
+s.ios.deployment_target = '9.0'
 s.name = "HeatSlider"
 s.summary = "HeatSlider lets you use a modern slider."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
